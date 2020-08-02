@@ -9,7 +9,7 @@
 import Foundation
 
 struct SubstractionModel {
-    func getSubtract(a: Int, b: Int) -> Int {
-        return abs(a - b)
+    func getSubtract(value1: Int, value2: Int) -> Int {
+        return abs(value1 - value2)
     }
 }
