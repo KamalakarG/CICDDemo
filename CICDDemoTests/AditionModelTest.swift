@@ -22,8 +22,8 @@ class AditionModelTest: XCTestCase {
     }
     
     func testAddition() {
-        let result = additionModel?.getSum(a: 3, b: 5)
-        XCTAssertEqual(result, 9, "sum of 3 and 5 should be 8")
+        let result = additionModel?.getSum(firstValue: 3, secondValue: 5)
+        XCTAssertEqual(result, 8, "sum of 3 and 5 should be 8")
     }
 
 }

@@ -9,7 +9,7 @@
 import Foundation
 
 struct AdditionModel {
-    func getSum(a: Int, b: Int) -> Int {
-        return a + b
+    func getSum(firstValue: Int, secondValue: Int) -> Int {
+        return firstValue + secondValue
     }
 }
