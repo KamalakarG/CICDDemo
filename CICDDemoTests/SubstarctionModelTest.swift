@@ -22,7 +22,7 @@ class SubstarctionModelTest: XCTestCase {
     }
     
     func testSubstraction() {
-        let result = substarctionModel?.getSubtract(a: 5, b: 10)
+        let result = substarctionModel?.getSubtract(value1: 5, value2: 10)
         XCTAssertEqual(result, 5, "5 - 10 should be 5")
     }
 
