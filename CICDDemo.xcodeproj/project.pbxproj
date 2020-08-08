@@ -22,6 +22,7 @@
 		84E5204824D662C2002C8FCF /* MVVMHttpMangerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5204624D662C2002C8FCF /* MVVMHttpMangerTest.swift */; };
 		84E5204924D662C2002C8FCF /* MVVMBreachViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5204724D662C2002C8FCF /* MVVMBreachViewModelTest.swift */; };
 		84E5204B24D66975002C8FCF /* MVVMBreachModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5204A24D66975002C8FCF /* MVVMBreachModelTest.swift */; };
+		84E5205924D6EDE7002C8FCF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5205824D6EDE7002C8FCF /* Location.swift */; };
 		84ECD6B724D3F6D100280A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECD6B624D3F6D100280A44 /* AppDelegate.swift */; };
 		84ECD6B924D3F6D100280A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECD6B824D3F6D100280A44 /* SceneDelegate.swift */; };
 		84ECD6BB24D3F6D100280A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECD6BA24D3F6D100280A44 /* ViewController.swift */; };
@@ -72,6 +73,7 @@
 		84E5204624D662C2002C8FCF /* MVVMHttpMangerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMHttpMangerTest.swift; sourceTree = "<group>"; };
 		84E5204724D662C2002C8FCF /* MVVMBreachViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMBreachViewModelTest.swift; sourceTree = "<group>"; };
 		84E5204A24D66975002C8FCF /* MVVMBreachModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBreachModelTest.swift; sourceTree = "<group>"; };
+		84E5205824D6EDE7002C8FCF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		84ECD6B324D3F6D100280A44 /* CICDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CICDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ECD6B624D3F6D100280A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84ECD6B824D3F6D100280A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,9 +162,18 @@
 			path = MVVM;
 			sourceTree = "<group>";
 		};
+		84E5205724D6EDBD002C8FCF /* WeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				84E5205824D6EDE7002C8FCF /* Location.swift */,
+			);
+			path = WeatherApp;
+			sourceTree = "<group>";
+		};
 		84ECD6AA24D3F6D100280A44 = {
 			isa = PBXGroup;
 			children = (
+				84E5205724D6EDBD002C8FCF /* WeatherApp */,
 				84E5203B24D6621D002C8FCF /* MVVM */,
 				847C913224D53D64008E2000 /* ForgotPassword */,
 				847C912F24D53B6B008E2000 /* Login */,
@@ -462,6 +473,7 @@
 				84E5204324D66253002C8FCF /* MVVMHttpManager.swift in Sources */,
 				84E5204524D66253002C8FCF /* MVVMBreachModel.swift in Sources */,
 				84E5204124D66253002C8FCF /* MVVMBreachViewModel.swift in Sources */,
+				84E5205924D6EDE7002C8FCF /* Location.swift in Sources */,
 				847C913424D53D7A008E2000 /* ForgotPasswordController.swift in Sources */,
 				84E5204224D66253002C8FCF /* MVVMConstansAPI.swift in Sources */,
 				84ECD6B924D3F6D100280A44 /* SceneDelegate.swift in Sources */,
