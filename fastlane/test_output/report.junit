@@ -1,19 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='CICDDemoUITests.xctest' tests='6' failures='1'>
-  <testsuite name='CICDDemoTests.AditionModelTest' tests='1' failures='1'>
-    <testcase classname='CICDDemoTests.AditionModelTest' name='testAddition'>
-      <failure message='XCTAssertEqual failed: (&quot;Optional(8)&quot;) is not equal to (&quot;Optional(9)&quot;) - sum of 3 and 5 should be 8'>CICDDemoTests/AditionModelTest.swift:26</failure>
-    </testcase>
+<testsuites name='CICDDemoUITests.xctest' tests='10' failures='0'>
+  <testsuite name='CICDDemoTests.AditionModelTest' tests='1' failures='0'>
+    <testcase classname='CICDDemoTests.AditionModelTest' name='testAddition' time='0.001'/>
   </testsuite>
   <testsuite name='CICDDemoTests.CICDDemoTests' tests='2' failures='0'>
     <testcase classname='CICDDemoTests.CICDDemoTests' name='testExample' time='0.001'/>
-    <testcase classname='CICDDemoTests.CICDDemoTests' name='testPerformanceExample' time='0.283'/>
+    <testcase classname='CICDDemoTests.CICDDemoTests' name='testPerformanceExample' time='0.321'/>
+  </testsuite>
+  <testsuite name='CICDDemoTests.MVVMBreachModelTest' tests='1' failures='0'>
+    <testcase classname='CICDDemoTests.MVVMBreachModelTest' name='testUstoUkDate' time='0.003'/>
+  </testsuite>
+  <testsuite name='CICDDemoTests.MVVMBreachViewModelTest' tests='2' failures='0'>
+    <testcase classname='CICDDemoTests.MVVMBreachViewModelTest' name='testBreachesCount' time='0.000'/>
+    <testcase classname='CICDDemoTests.MVVMBreachViewModelTest' name='testToGetBreaches' time='0.362'/>
+  </testsuite>
+  <testsuite name='CICDDemoTests.MVVMHttpMangerTest' tests='1' failures='0'>
+    <testcase classname='CICDDemoTests.MVVMHttpMangerTest' name='testGetBreaches' time='0.575'/>
   </testsuite>
   <testsuite name='CICDDemoTests.SubstarctionModelTest' tests='1' failures='0'>
     <testcase classname='CICDDemoTests.SubstarctionModelTest' name='testSubstraction' time='0.001'/>
   </testsuite>
   <testsuite name='CICDDemoUITests.CICDDemoUITests' tests='2' failures='0'>
-    <testcase classname='CICDDemoUITests.CICDDemoUITests' name='testExample' time='2.550'/>
-    <testcase classname='CICDDemoUITests.CICDDemoUITests' name='testLaunchPerformance' time='26.567'/>
+    <testcase classname='CICDDemoUITests.CICDDemoUITests' name='testExample' time='2.610'/>
+    <testcase classname='CICDDemoUITests.CICDDemoUITests' name='testLaunchPerformance' time='21.557'/>
   </testsuite>
 </testsuites>
