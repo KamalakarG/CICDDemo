@@ -1,10 +1,30 @@
 pipeline {
     agent any 
     stages {
-        stage('Stage 1') {
+        stage('Checkout') {
             steps {
-                echo 'Hello world!' 
+                checkout scm 
             }
         }
+	
+	stage('Running Tests') {
+            steps {
+                parallel (
+          		"Unit Tests": {
+            			sh 'echo "Unit Tests"'
+            			sh 'fastlane tests'
+          		},
+          		"UI Automation": {
+            			sh 'echo "UI Automation"'
+          		}
+        	) 
+            }
+        }
+
+	stage('Publish TestFlight') {
+		steps {
+			sh 'fastlane beta'
+		}
+	}
     }
 }
